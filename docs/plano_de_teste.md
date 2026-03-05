@@ -61,7 +61,7 @@
 		• Atualizar com dados inválidos → erro esperado
 	
 	Deletar Filme (DELETE /movies/{id})
-		• Deletar filme existente → 204 No Content
+		• Deletar filme existente → 200 OK ou 204 No Content
 		• Deletar filme inexistente → 404 Not Found
 	
 	Reservando Ingressos
@@ -88,7 +88,9 @@
 		• Ausência de autenticação pode permitir alterações indevidas.
 	
 	8. Ferramentas Utilizadas
-		• Node.js
-		• Playwright
-		• GitHub
-		• API NestJS Cinema
+	API: NestJS Cinema
+	• Linguagem de automação: Python
+	• Framework de testes: Pytest
+	• Biblioteca de requisições: Playwright API
+	• Controle de versão: GitHub
+	• Sistema operacional: Windows
