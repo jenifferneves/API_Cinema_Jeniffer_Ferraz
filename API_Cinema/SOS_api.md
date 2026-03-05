@@ -76,10 +76,11 @@ Isso permite reutilizar código e manter os testes mais organizados.
 
 Exemplo de uso:
 
-```python
-client.post("/movies", payload)
-client.get("/movies")
-client.delete("/tickets/{id}")
+- client.post("/movies", payload)
+- client.get("/movies")
+- client.delete("/tickets/{id}")
+
+---
 
 # Factories
 
@@ -91,37 +92,46 @@ movie_factory.py → gera payload válido de filme
 
 ticket_factory.py → gera payload válido de ticket
 
+---
+
 # Services
 
 A camada de services centraliza as chamadas para cada rota da API.
 
 Exemplo:
 
-movies_service.py
+- movies_service.py
 
-tickets_service.py
+- tickets_service.py
 
 Isso ajuda a manter os testes mais limpos e organizados.
+
+---
 
 # Teste de Fluxo Completo
 
 O teste localizado em:
-tests/flows/test_full_flow.py
+- tests/flows/test_full_flow.py
+
 Executa o fluxo completo da aplicação:
 
-Criar um filme
+- Criar um filme
 
-Buscar o filme criado
+- Buscar o filme criado
 
-Criar um ticket para esse filme
+- Criar um ticket para esse filme
 
-Deletar o ticket criado
+- Deletar o ticket criado
 
 Esse teste valida o funcionamento integrado das rotas.
 
+---
+
 # Como Rodar os Testes
 
-pytest (em seguida colocar a rota que deseja testar, ex: tests/movies/test_create_movie.py)
+- pytest (em seguida colocar a rota que deseja testar, ex: tests/movies/test_create_movie.py)
+
+---
 
 # Observação Importante
 
@@ -129,9 +139,9 @@ Os testes da rota movies devem ser executados individualmente.
 
 Exemplo:
 
-pytest tests/movies/test_create_movie.py
-pytest tests/movies/test_get_movie.py
-pytest tests/movies/test_delete_movie.py
+- pytest tests/movies/test_create_movie.py
+- pytest tests/movies/test_get_movie.py
+- pytest tests/movies/test_delete_movie.py
 
 Isso ocorre porque alguns testes dependem de dados criados durante a execução, o que pode causar conflitos quando todos os testes são executados juntos.
 
