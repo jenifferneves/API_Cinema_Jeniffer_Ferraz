@@ -65,7 +65,7 @@ Endpoints testados:
 
 ---
 
-# Fora do Escopo
+## Fora do Escopo
 
 Este projeto foca exclusivamente em **testes funcionais**.
 
@@ -79,7 +79,7 @@ Não foram incluídos:
 
 ---
 
-# Estratégia de Teste
+## Estratégia de Teste
 
 A estratégia utilizada inclui:
 
@@ -93,7 +93,7 @@ A estratégia utilizada inclui:
 
 ---
 
-# Mapa Mental
+## Mapa Mental
 
 O planejamento dos testes foi realizado utilizando **mapa mental**, organizando os endpoints da API e os cenários de teste.
 
@@ -117,7 +117,7 @@ Também foram definidos cenários **positivos e negativos** para validação das
 
 ---
 
-# Estrutura do Projeto
+## Estrutura do Projeto
 
 API_Cinema
 │
@@ -152,7 +152,7 @@ API_Cinema
 
 ---
 
-# Pré-requisitos
+## Pré-requisitos
 
 Para executar o projeto é necessário ter instalado:
 
@@ -164,7 +164,7 @@ Para executar o projeto é necessário ter instalado:
 
 ---
 
-# Como executar o projeto
+## Como executar o projeto
 
 Clone o repositório:
 git clone <url-do-repositorio>
@@ -180,7 +180,7 @@ pytest -v
 
 ---
 
-# Issues Criadas
+## Issues Criadas
 
 Durante a execução dos testes foram identificados possíveis bugs e melhorias na API, que foram registradas como issues no repositório.
 
@@ -196,7 +196,7 @@ Exemplos:
 
 ---
 
-# Boas Práticas Aplicadas
+## Boas Práticas Aplicadas
 
 Durante o desenvolvimento da automação foram aplicadas boas práticas como:
 
