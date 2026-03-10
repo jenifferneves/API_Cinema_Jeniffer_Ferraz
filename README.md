@@ -167,7 +167,7 @@ Para executar o projeto é necessário ter instalado:
 ## Como executar o projeto
 
 Clone o repositório:
-git clone <url-do-repositorio>
+git clone https://github.com/jenifferneves/API_Cinema_Jeniffer_Ferraz.git
 
 Acesse a pasta do projeto:
 cd API_Cinema
