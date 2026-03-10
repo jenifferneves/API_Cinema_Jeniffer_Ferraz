@@ -110,6 +110,8 @@ Movies
 
 Tickets
 - POST /tickets
+- GET /tickets
+- DELETE /tickets
 
 Também foram definidos cenários **positivos e negativos** para validação das regras de negócio.
 
