@@ -5,7 +5,7 @@ O objetivo deste projeto é validar os principais endpoints da API responsáveis
 
 Este projeto faz parte de um **challenge de QA**, onde foi aplicado planejamento de testes, criação de cenários, automação e documentação do processo.
 
-# Uso de Inteligência Artificial no Planejamento de Testes
+## Uso de Inteligência Artificial no Planejamento de Testes
 
 Durante o planejamento do projeto foi utilizado um prompt para auxiliar na evolução do plano de testes da API Cinema.
 
@@ -121,31 +121,33 @@ Também foram definidos cenários **positivos e negativos** para validação das
 
 API_Cinema
 │
-├── tests
-│   ├── movies
-│   │   ├── test_create_movie.py
-│   │   ├── test_get_movie.py
-│   │   ├── test_update_movie.py
-│   │   └── test_delete_movie.py
-│   │
-│   ├── tickets
-│   │   └── test_create_ticket.py
-│   │
-│   └── flows
-│       └── test_full_flow.py
+├── factories
+│ ├── movie_factory.py
+│ └── ticket_factory.py
 │
 ├── services
-│   ├── movie_service.py
-│   └── ticket_service.py
+│ ├── movies_service.py
+│ └── tickets_service.py
 │
-├── factories
-│   ├── movie_factory.py
-│   └── ticket_factory.py
+├── tests
+│ ├── flows
+│ │ └── test_full_flow.py
+│ │
+│ ├── movies
+│ │ ├── test_create_movie.py
+│ │ ├── test_delete_movie.py
+│ │ └── test_get_movie.py
+│ │
+│ └── tickets
+│ ├── test_create_ticket.py
+│ ├── test_delete_ticket.py
+│ └── test_get_ticket.py
 │
 ├── utils
-│   └── api_client.py
+│ └── api_client.py
 │
 ├── requirements.txt
+├── pytest.ini
 └── README.md
 
 ---
