@@ -60,6 +60,8 @@ Endpoints testados:
 ## Tickets
 
 - POST `/tickets` → Criar reserva de ingresso
+- GET `/tickets`  → Buscar tickets
+- DELETE `/tickets`  → Deletar tickets
 
 ---
 
